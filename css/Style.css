@@ -1,0 +1,66 @@
+
+.product {
+    background-image: background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    width: 280px;
+   box-sizing: border-box;
+display: inline-block;
+}
+.parent{
+ 
+    width: fit-content;
+    margin: auto;
+}
+.product a {
+ text-decoration: none;
+ color: #222;
+
+}
+.product:hover a {
+    text-decoration: underline;
+    color: red;
+}
+.product h5 {
+    color: #ffff;
+    font-size: 20px;
+}
+.product h5 span{
+    font-size: 15px;
+    color: black;
+    text-decoration: line-through;
+}
+.pera {
+    margin: 50px auto;
+    width: fit-content;
+}
+.services {
+width: 150px;
+padding: 15px;
+box-sizing: border-box;
+background-color: #e7e1e1;
+display: inline-block
+}
+.service {
+    width: fit-content;
+    margin: auto;
+}
+.course {
+
+width: 150px
+padding: 20px;
+box-sizing: border-box;
+display: inline-block;
+background-color: #e7e1e1;
+}
+.course a {
+    color: orangered;
+}
+.tree{
+    width: fit-content;
+    margin: auto;
+}
